@@ -15,3 +15,5 @@ do
     echo "Hello this is test no ${i}" > test/dir/testArtifact${i}.txt
     echo "Hello this is test no ${i}" > test/testArtifact${i}.txt
 done
+
+sleep 1
