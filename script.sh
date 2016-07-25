@@ -17,3 +17,6 @@ do
 done
 
 sleep 1
+
+BUILD_NUMBER=1 nosetests --quiet --with-xunit --xunit-file=fake.xml
+BUILD_NUMBER=2 nosetests --quiet --with-xunit --xunit-file=fake2.xml
